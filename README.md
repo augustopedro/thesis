@@ -26,7 +26,4 @@ Para compilar o projeto e gerar o documento no formato PDF, execute o seguinte c
 
 $ make
 
-### Limpar
-Para limpar os arquivos temporários, execute o seguinte comando dentro do diretório do projeto:
-
-$ make clean
+Não é necessário fazer a limpeza dos arquivos temporários Latex manualmente. O próprio arquivo Makefile já se encarrega dessa tarefa após a compilação do projeto.
